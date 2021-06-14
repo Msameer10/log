@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap');
+
+body{
+  min-height: 100vh;
+}
+
+h1{
+  padding: 14px 0;
+  font-size: 2em;
+  margin: 0;
+  font-family: Roboto Mono,IBM Plex Serif,B612,Arsenal,sans-serif,cursive,monospace;
+}
+
+/** Content Section **/
+
+hr{
+  width: 70%;
+  margin: auto;
+}
+
+#test{
+  margin: 40px 18px;
+}
+
+.container{
+  padding-top: 50px;
+}
+/* --------- Search Bar -----------*/
+ svg{
+  margin: 0 5px 0 20px;
+ }
+
+#myInput {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #00EED0;
+  margin: 0 0 12px;
+  border-radius: 10px;
+}
+
+
+
+/*------------ Cards -------------*/
+
+.container{
+  margin: 20px 0;
+}
+
+div.container{
+  margin: auto;
+}
+
+div.card{
+  margin: 10px 0;
+}
+
+h4.card-title, p.card-text{
+  margin-left: 15px;
+}
+
+.card-btn{
+  width: 100px;
+  margin: 0 0 20px 15px;
+  background-color: #2C3E50;
+  color: #fff;
+}
+
+/* ---- Footer --- */
+
+footer{
+  background-color: #f2f3f4;
+  padding: 20px 0;
+}
+
+footer p{
+  margin: 0;
+  font-family: Montserrat, monospace;
+  font-size: 0.74em;
+}
+
+#license{
+  font-size: 0.5em;
+  color: black;
+  margin: 5px 0 7px;
+
+}
+
+
+/* ------------- Custom ScrollBar ---------------- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 7px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #D5DBDB; 
+  border-radius: 7px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /*background: linear-gradient(to bottom, #5DADE2, #48C9B0, #58D68D, #F7DC6F, #F8C471, #E59866, #EC7063);*/
+  background:  linear-gradient(to bottom, #5DADE2, #48C9B0, #58D68D);
+}
+
+
+/* -------------  MEDIA QUERIES ----------------*/
+
+@media screen and (min-width: 768px){
+
+
+  h1{
+    font-size: 6em;
+  }
+
+  footer p{
+  font-size: 1em;
+  padding: 25px 0;
+  letter-spacing: 0.1em;
+  }
+
+
+  #license{
+  font-size: 0.85em;
+  margin: 8px 0 9px;
+
+  }
+
+  #quote{
+  font-size: 1.7em;
+
+ }
+
+ #myInput {
+  width: 400px;
+ }
+
+ svg{
+  margin-left: 60%;
+ }
+
+
+}
